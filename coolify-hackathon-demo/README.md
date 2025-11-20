@@ -17,7 +17,7 @@ coolify-hackathon-demo/
 │   ├── vite.config.js
 │   ├── Dockerfile
 │   ├── nginx.conf
-│   └── .gitignore
+│   └── .gitignore`
 ├── backend/              # Express.js API
 │   ├── server.js
 │   ├── package.json
@@ -232,3 +232,4 @@ This project was created for the Coolify hackathon to demonstrate:
 - Production-ready configuration
 
 Deploy this to Coolify and you're ready to go! 🚀
+# coolify-hackathon-demo
