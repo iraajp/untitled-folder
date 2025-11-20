@@ -1,0 +1,48 @@
+.App {
+  width: 100%;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.message-box {
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  min-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-box.success {
+  background-color: #1a472a;
+  border: 2px solid #2d694f;
+}
+
+.message-box.error {
+  background-color: #4a1a1a;
+  border: 2px solid #692d2d;
+}
+
+.message-box p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.info {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
